@@ -14,7 +14,7 @@ background-color:black;
 }
 html, body{
   font-family: cursive;
-  font-size: 18px;
+  font-size: 30px;
   line-height: 30px;
   color:pink;
 }
@@ -38,5 +38,5 @@ img{
   transition:transform 1s;
 }
 .headshot:hover{
-  transform:rotate(360deg);
+  transform:rotate#d(360deg);
 }
