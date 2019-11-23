@@ -27,7 +27,7 @@ h1{
   font-weight:bold;
 }
 img{
-  border-radius:50%;
+  border-radius:100%;
 }
 
 .hero{
@@ -39,6 +39,7 @@ img{
 }
 .hero img{
   width:100%;
+  height:180%;
 
 }
 .headshot{
