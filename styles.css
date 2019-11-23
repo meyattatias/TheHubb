@@ -39,7 +39,7 @@ img{
   height: 300px;
   margin-left:auto;
   margin-right: auto;
-  outline:1px red;
+  outline:1px;
   transition:transform 1s;
 }
 .headshot:hover{
