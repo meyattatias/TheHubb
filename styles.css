@@ -43,5 +43,5 @@ img{
   transition:transform 1s;
 }
 .headshot:hover{
-  transform:rotate#d(360deg);
+  transform:matrix3d();
 }
