@@ -18,6 +18,7 @@ html, body{
 }
 body{
   background-color:black;
+  background-image:();
   text-align:center;
 }
 
@@ -64,4 +65,35 @@ section{
 }
 .headshot:hover{
   transform:rotate(360deg);
+}
+.headshot img{
+  transition:opacity 1s;
+}
+
+>list li{
+  display:inline;
+  font-weigth:bold
+}
+.list li:not(:last_child):after{
+  content:", ";
+}
+
+.blocklist > li{
+  display:flex;
+  justify-content:center;
+}
+.blocklist > li > div{
+  flex-grow:1;
+}
+.blocklist > li > img{
+  width:150px;
+  height:150px;
+}
+.blocklist > li:nth-child(odd){
+  flex-direction:row;
+  text-align:left
+}
+.blocklist > li:nth-child(even){
+  flex-direction:row-reverse;
+  text-align:right
 }
